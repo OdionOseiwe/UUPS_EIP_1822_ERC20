@@ -3,6 +3,8 @@ pragma solidity ^0.8.9;
 
 import "./proxiable.sol";
 
+///ERC1 address = 0x349Ae8C78a58a0dA199197CA568E53189B6E8211;
+
 contract METOKEN is Proxiable{
     mapping(address => uint256) public _balances;
     uint256 public _totalSupply;

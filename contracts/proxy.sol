@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
+///proxy address = 0x3f8B51491eFE743d417Cf05148FB43416696C69e;
+
 contract Proxy{
     // Code position in storage is keccak256("PROXIABLE") = "0xc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf7"
     constructor(bytes memory constructData, address contractLogic) {
